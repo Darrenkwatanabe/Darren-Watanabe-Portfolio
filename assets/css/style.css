@@ -6,8 +6,10 @@
 
 header {
     text-align: center;;
-    padding: 60px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 40px;
+    border: 5px solid lightgoldenrodyellow;
+    width: 100%;
 }
 
 main {
@@ -28,7 +30,6 @@ main p {
 
 nav {
     text-align: center;
-    background-color: lightgoldenrodyellow;
 }
 
 nav a {
@@ -105,4 +106,16 @@ nav a {
     display: block;
     margin: 10px auto;
     max-width: 300px;
+}
+
+.contact-info .contact-info-card  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 5px solid greenyellow;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 4;
 }
