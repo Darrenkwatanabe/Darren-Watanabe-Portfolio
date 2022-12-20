@@ -10,7 +10,8 @@
 
 ## Table of Contents
 
-1. Description (#Description)
+1. [Description](#description)
+
 
 ## Description 
 
