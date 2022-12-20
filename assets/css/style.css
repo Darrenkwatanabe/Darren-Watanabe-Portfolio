@@ -55,7 +55,7 @@ nav a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 25%;
+    width: 50%;
     border: 3px solid greenyellow;
     padding: 30px;
     font-size: 15px;
@@ -63,10 +63,26 @@ nav a {
     flex-grow: 4;
 }
 
-
 .grid-container .card1 img {
     display: block;
     margin: 10px auto;
     max-width: 500px;
 }
 
+.grid-container .card2  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    border: 3px solid greenyellow;
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    flex-grow: 4;
+}
+
+.grid-container .card2 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+}
