@@ -20,6 +20,7 @@ main {
 main h2 {
     color: white;
     font-size: 40px;
+    text-decoration: underline;
 }
 
 main p {
@@ -119,7 +120,9 @@ nav a {
     flex-grow: 4;
 }
 
-@media  and (max-width: 768px) {
+/* Created media query to set the flex-direction to column as screen size changes */
+
+@media  and (max-width: 768px){
     .grid-container {
         flex-direction: column;
     }
