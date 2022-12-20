@@ -76,7 +76,7 @@ nav a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 15%;
+    width: 30%;
     border: 3px solid greenyellow;
     padding: 30px;
     font-size: 15px;
@@ -87,14 +87,14 @@ nav a {
 .grid-container .card2 img {
     display: block;
     margin: 10px auto;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 .grid-container .card3  {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 15%;
+    width: 20%;
     border: 3px solid greenyellow;
     padding: 30px;
     font-size: 15px;
@@ -105,7 +105,6 @@ nav a {
 .grid-container .card3 img {
     display: block;
     margin: 10px auto;
-    max-width: 300px;
 }
 
 .contact-info .contact-info-card  {
@@ -118,4 +117,23 @@ nav a {
     font-size: 20px;
     text-align: center;
     flex-grow: 4;
+}
+
+@media  and (max-width: 768px) {
+    .grid-container {
+        flex-direction: column;
+    }
+
+    .grid-container .card1 {
+        flex-direction: column;
+    }
+
+    .grid-container .card2 {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .grid-container .card3 {
+        flex-direction: column;
+    }
 }
