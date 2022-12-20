@@ -5,18 +5,28 @@
 }
 
 header {
-    text-align: center;
-    background: lightgoldenrodyellow;
+    text-align: center;;
     padding: 60px;
     font-size: 30px;
 }
 
 main {
     text-align: center;
+    margin-top: 20px;
+}
+
+main h2 {
+    color: white;
+}
+
+main p {
+    color: white;
+    justify-content: center;
 }
 
 nav {
     text-align: center;
+    background-color: lightgoldenrodyellow;
 }
 
 nav a {
@@ -27,3 +37,36 @@ nav a {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;  
+  }
+
+.grid-container a {
+    display: block;
+    font-size: 25px;
+}
+
+.grid-container .card1  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    border: 3px solid greenyellow;
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    flex-grow: 4;
+}
+
+
+.grid-container .card1 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
